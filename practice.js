@@ -13,8 +13,12 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age. 
   Then alert your name using dot notation.
 */
-
-//Code here
+//code here
+var me = {
+  name: 'Brayden',
+  age: 29
+}
+me.name;
 
 
 
@@ -24,16 +28,24 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
   Have the values to those keys be your favorite thing in that category.
 */
-
-//Code here
+//code here
+var favoriteThings = {
+  band: "Kid Cudi",
+  food: 'sushi',
+  person: "Wife",
+  book: "none",
+  movie: 'Gladiator',
+  holiday: "Christmas"
+};
 
 
 
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
-
-//Code here
+//code here
+favoriteThings.car= 'Viper';
+favoriteThings.brand = 'Nike';
 
 
 
@@ -42,7 +54,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 ////////// PROBLEM 3 //////////
@@ -56,7 +69,10 @@
 */
 
 //Code here
-
+var backPack = {};
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'blue';
 
 
 /*
@@ -64,7 +80,7 @@
 */
 
 //Code here
-
+alert (backPack);
 
 
 /*
@@ -74,7 +90,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 
 
 ////////// PROBLEM 4 //////////
@@ -97,7 +113,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
