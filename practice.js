@@ -30,12 +30,12 @@ me.name;
 */
 //code here
 var favoriteThings = {
-  band: "Kid Cudi",
-  food: 'sushi',
-  person: "Wife",
-  book: "none",
+  band: 'Kid Cudi',
+  food: 'Pizza',
+  person: 'Wife',
+  book: 'none',
   movie: 'Gladiator',
-  holiday: "Christmas"
+  holiday: 'Christmas'
 };
 
 
@@ -44,7 +44,7 @@ var favoriteThings = {
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 //code here
-favoriteThings.car= 'Viper';
+favoriteThings.car= 'R8';
 favoriteThings.brand = 'Nike';
 
 
@@ -73,6 +73,8 @@ var backPack = {};
 var item = 'firstPocket';
 backPack[item] = 'chapstick';
 backPack.color = 'blue';
+
+console.log(backPack)
 
 
 /*
@@ -137,6 +139,7 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+let methodCollection = {}
 
 
 
@@ -146,7 +149,13 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+methodCollection.alertHello = function(){
+  alert('hello')
+}
 
+methodCollection.logHello= function(){
+  console.log('hello')
+}
 
 
 /*
@@ -154,7 +163,8 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+methodCollection.alertHello()
+methodCollection.logHello()
 
 
 ////////// PROBLEM 6 //////////
@@ -165,6 +175,9 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+function makePerson (name, birthday, ssn){
+  return {name, birthday, ssn}
+}
 
 
 
@@ -176,5 +189,9 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
+
+function makeCard(cardNumber, expirationDate, securityCode){
+  return {cardNumber, expirationDate, securityCode}
+}
 
 
